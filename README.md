@@ -5,7 +5,7 @@
 * https://refactoring.guru/pl/design-patterns
 
 ## Zadania
-1Wzorzec projektowy Budowniczy
+1. Wzorzec projektowy Budowniczy
     * zaimplementuj klasę `Window` reprezentującą okno programu graficznego
     * umieść klasę w pliku `window.py`
     * klasa ma przyjmować jako argumenty swojego konstruktora:
@@ -21,7 +21,7 @@
     * klasa `Builder` ma mieć metody inicjalizujące poszczególne elementy okna, ich nazwy powinny być takie same jak nazwy parametrów okna
     * przykład użycia wspomnianych meteod \
 
-      ```
+      ```python
       builder = Window.new_builder()
       window = builder
                  .x(20)
@@ -34,7 +34,7 @@
 
       lub
 
-      ```
+      ```python
       window = Window.new_builder()
                  .x(20)
                  .y(30)
